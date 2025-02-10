@@ -4,7 +4,7 @@ const services = [
   {
     category: "Cosmetic Injectables",
     services: ["Wrinkle Relaxers", "Fillers", "Fat Dissolvents", "Botox", "RHA"],
-    image: "https://source.unsplash.com/600x400/?botox,injectables",
+    image: "https://images.pexels.com/photos/7582560/pexels-photo-7582560.jpeg",
   },
   {
     category: "Skin Rejuvenation",
@@ -17,7 +17,7 @@ const services = [
       "Skin Resurfacing",
       "Morpheus8",
     ],
-    image: "https://source.unsplash.com/600x400/?facial,skin-care",
+    image: "https://dermindy.com/wp-content/uploads/2016/03/ThinkstockPhotos-187923649.jpg",
   },
   {
     category: "Wellness Services",
@@ -28,17 +28,17 @@ const services = [
       "Medical Weight Loss",
       "IV Therapy",
     ],
-    image: "https://source.unsplash.com/600x400/?wellness,health",
+    image: "https://images.pexels.com/photos/16571736/pexels-photo-16571736/free-photo-of-lights-in-room.jpeg",
   },
   {
     category: "Hair Treatments",
     services: ["Laser Hair Removal", "Hair Restoration", "Electrolysis"],
-    image: "https://source.unsplash.com/600x400/?hair,beauty",
+    image: "https://images.pexels.com/photos/19239092/pexels-photo-19239092/free-photo-of-laser-hair-removal-in-the-beauty-salon-woman-having-professional-laser-epilation-procedure-of-arm.jpeg",
   },
   {
     category: "Body Treatments",
     services: ["Body Sculpting", "Permanent Makeup"],
-    image: "https://source.unsplash.com/600x400/?body-treatment,spa",
+    image: "https://images.pexels.com/photos/3865560/pexels-photo-3865560.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
 
@@ -66,7 +66,7 @@ const ServicesPage = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12">
           {services.map((service, index) => (
             <div key={index} className="bg-white shadow-lg rounded-lg overflow-hidden">
-              <img src={service.image} alt={service.category} className="w-full h-56 object-cover" />
+              <img src={service.image} alt={service.category} className="w-full h-64 object-cover" />
               <div className="p-6 text-center">
                 <h2 className="text-3xl font-display text-dark-brown mb-4">{service.category}</h2>
                 <ul className="text-lg font-body text-dark-green">
