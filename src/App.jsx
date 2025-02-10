@@ -59,11 +59,11 @@ function App() {
                   Experience the perfect blend of relaxation and rejuvenation.
                 </h1>
                 <a
-                  href="#contact"
-                  className="px-6 py-3 bg-light-brown text-white rounded-full text-xl hover:bg-light-brown/90 transition duration-300"
-                >
-                  Schedule a Consultation
-                </a>
+  href="/appointment"
+  className="px-6 py-3 bg-light-brown text-white rounded-full text-xl hover:bg-light-brown/90 transition duration-300"
+>
+  Schedule a Consultation
+</a>
               </div>
             </header>
 
