@@ -1,7 +1,6 @@
 import React, { useEffect, useState } from 'react'
 
 const videos = [
-  'https://videos.pexels.com/video-files/6446060/6446060-hd_1080_1920_25fps.mp4',
   'https://videos.pexels.com/video-files/8131885/8131885-uhd_1440_2732_25fps.mp4',
   'https://videos.pexels.com/video-files/8131887/8131887-uhd_1440_2732_25fps.mp4',
   'https://videos.pexels.com/video-files/4772527/4772527-uhd_1440_2560_24fps.mp4',
