@@ -44,13 +44,11 @@ const AboutPage = () => {
           <h2 className="text-4xl font-display text-dark-brown mb-8">Why Choose Examplus?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="flex flex-col items-center">
-              <video
-                src="https://videos.pexels.com/video-files/4267992/4267992-uhd_2560_1440_30fps.mp4"
-                autoPlay
-                loop
-                muted
+              <img
+                src="https://images.pexels.com/photos/16131207/pexels-photo-16131207/free-photo-of-woman-during-facial-treatment.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="State-of-the-Art Technology"
                 className="rounded-lg shadow-lg mb-4 w-full h-auto"
-              ></video>
+              />
               <h3 className="text-2xl font-display text-light-brown mb-2">State-of-the-Art Technology</h3>
               <p className="text-lg font-body text-dark-green">
                 Our spa is equipped with the latest advancements in medical aesthetics to deliver safe and effective treatments.
