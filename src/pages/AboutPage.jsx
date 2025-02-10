@@ -23,8 +23,8 @@ const AboutPage = () => {
       <div className="container mx-auto px-6 py-16">
         <div className="flex flex-col md:flex-row items-center gap-12">
           <img
-            src="https://source.unsplash.com/600x400/?spa,medspa"
-            alt="Luxurious Spa Interior"
+            src="https://images.pexels.com/photos/7581575/pexels-photo-7581575.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+            alt="Our Philosophy"
             className="w-full md:w-1/2 rounded-lg shadow-lg object-cover"
           />
           <div className="md:w-1/2 text-center md:text-left">
@@ -44,11 +44,13 @@ const AboutPage = () => {
           <h2 className="text-4xl font-display text-dark-brown mb-8">Why Choose Examplus?</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-12">
             <div className="flex flex-col items-center">
-              <img
-                src="https://source.unsplash.com/300x300/?medical,aesthetic"
-                alt="Advanced Technology"
-                className="rounded-full shadow-lg mb-4"
-              />
+              <video
+                src="https://videos.pexels.com/video-files/4267992/4267992-uhd_2560_1440_30fps.mp4"
+                autoPlay
+                loop
+                muted
+                className="rounded-lg shadow-lg mb-4 w-full h-auto"
+              ></video>
               <h3 className="text-2xl font-display text-light-brown mb-2">State-of-the-Art Technology</h3>
               <p className="text-lg font-body text-dark-green">
                 Our spa is equipped with the latest advancements in medical aesthetics to deliver safe and effective treatments.
@@ -57,9 +59,9 @@ const AboutPage = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src="https://source.unsplash.com/300x300/?beauty,wellness"
+                src="https://images.pexels.com/photos/5214958/pexels-photo-5214958.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
                 alt="Expert Professionals"
-                className="rounded-full shadow-lg mb-4"
+                className="rounded-lg shadow-lg mb-4 w-full h-auto"
               />
               <h3 className="text-2xl font-display text-light-brown mb-2">Expert Professionals</h3>
               <p className="text-lg font-body text-dark-green">
@@ -69,9 +71,9 @@ const AboutPage = () => {
 
             <div className="flex flex-col items-center">
               <img
-                src="https://source.unsplash.com/300x300/?spa,treatment"
-                alt="Personalized Treatments"
-                className="rounded-full shadow-lg mb-4"
+                src="https://images.pexels.com/photos/7088483/pexels-photo-7088483.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
+                alt="Customized Treatment Plans"
+                className="rounded-lg shadow-lg mb-4 w-full h-auto"
               />
               <h3 className="text-2xl font-display text-light-brown mb-2">Customized Treatment Plans</h3>
               <p className="text-lg font-body text-dark-green">
