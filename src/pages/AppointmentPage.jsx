@@ -109,9 +109,9 @@ const AppointmentPage = () => {
                   id="preferredLocation"
                   className="w-full border rounded py-2 px-3 text-dark-brown focus:outline-none focus:ring-2 focus:ring-light-brown"
                 >
-                  <option>St. Johns</option>
-                  <option>Gate Parkway</option>
-                  <option>Fleming Island</option>
+                  <option>Los Angeles</option>
+                  <option>Redondo Beach</option>
+                  <option>Beverly Hills</option>
                 </select>
               </div>
 
@@ -148,7 +148,7 @@ const AppointmentPage = () => {
                 href="tel:(904)712-1448"
                 className="text-light-brown hover:text-light-brown/80 font-bold text-sm mt-4 md:mt-0"
               >
-                Call Us: (904) 712-1448
+                Call Us: (213) 555-5555
               </a>
             </div>
           </form>
